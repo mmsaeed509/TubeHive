@@ -98,7 +98,7 @@ class CustomButtonPanel(QWidget):
     def __init__(self, parent=None):
         super().__init__(parent)
         # self.setFixedSize(width, height)
-        self.setFixedSize(200, 570)  # Adjust the size of the main window as needed
+        self.setFixedSize(200, 400)  # Adjust the size of the main window as needed
         # Set the geometry (position and size) of the internal window
         # self.setGeometry(x, y, width, height)
         self.setGeometry(100, 220, 400, 600)
@@ -154,19 +154,6 @@ class CustomButtonPanel(QWidget):
                 'x': 50, 'y': 160, 'width': 200, 'height': 100,
                 'callback': parent.displayKeybindingContent
             },
-            # Tips Button
-            {
-                'text': 'Wiki',
-                'points': [
-                    QPoint(300, 20),
-                    QPoint(300, 80),
-                    QPoint(0, 80),
-                    QPoint(0, 45),
-                    QPoint(0, 20)
-                ],
-                'x': 50, 'y': 270, 'width': 200, 'height': 100,
-                'callback': parent.displayWikiContent
-            },
             # Setting Button
             {
                 'text': 'Setting',
@@ -179,19 +166,6 @@ class CustomButtonPanel(QWidget):
                 ],
                 'x': 50, 'y': 380, 'width': 200, 'height': 100,
                 'callback': parent.displaySettingContent
-            },
-            # Role Button
-            {
-                'text': 'Role',
-                'points': [
-                    QPoint(300, 20),
-                    QPoint(300, 80),
-                    QPoint(0, 80),
-                    QPoint(0, 45),
-                    QPoint(0, 20)
-                ],
-                'x': 50, 'y': 380, 'width': 200, 'height': 100,
-                'callback': parent.displayRoleContent
             },
             # Developers Button
             {

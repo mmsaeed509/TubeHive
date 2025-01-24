@@ -4,6 +4,10 @@
     <img src="./TubeHive.png" alt="TubeHive Logo" width="200" />
 </div>
 
+<h4 align="center"> An App to manage and Download YouTube videos, playlists, shorts, music, etc... </h4>
+
+![Preview](./preview.png)
+
 # Contributing
 
 - Fork the repo
