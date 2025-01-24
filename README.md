@@ -1,6 +1,8 @@
 <h1 align="center"> TubeHive </h1>
 
-![](./TubeHive.png)
+<div align="center">
+    <img src="./TubeHive.png" alt="TubeHive Logo" width="200" />
+</div>
 
 # Contributing
 
