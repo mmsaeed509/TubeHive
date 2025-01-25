@@ -163,7 +163,7 @@ class CustomShapeWindow(QMainWindow):
 
         # Set button styles (optional)
         for button in [self.settings_button, self.minimize_button, self.close_button]:
-            button.setStyleSheet("color: #5922b3; border: none; font-size: 25px;")
+            button.setStyleSheet("color: #E33E8C; border: none; font-size: 25px;")
             button.setFixedSize(40, 40)
 
     def addButtonPanel(self):
@@ -262,6 +262,6 @@ class CustomShapeWindow(QMainWindow):
         y_pos = int(10)
 
         # Draw the text with gradient colors
-        gradient_pen = QPen(QColor("#5922b3"))
+        gradient_pen = QPen(QColor("#E33E8C"))
         painter.setPen(gradient_pen)
         painter.drawText(QRect(x_pos, y_pos, text_width, text_height), Qt.AlignCenter, text)

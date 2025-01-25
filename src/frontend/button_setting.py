@@ -92,7 +92,7 @@ class SettingWindow(QMainWindow):
         self.close_button.setStyleSheet("""
             QPushButton {
                 background-color: #0E1218;
-                color: #5922b3;
+                color: #E33E8C;
                 font-size: 30px;
                 font-weight: bold;
                 border-radius: 0px;
@@ -114,7 +114,7 @@ class SettingWindow(QMainWindow):
             self.toggle_button.setText('ON')
             self.toggle_button.setStyleSheet("""
                 QPushButton {
-                    background-color: #5922b3;
+                    background-color: #E33E8C;
                     color: white;
                     font-size: 24px;
                     font-weight: bold;
@@ -169,7 +169,7 @@ class SettingWindow(QMainWindow):
         ]
         border_polygon = QPolygon(border_points)
 
-        border_pen = QPen(QColor("#5922b3"))
+        border_pen = QPen(QColor("#E33E8C"))
         border_pen.setWidth(10)
         painter.setPen(border_pen)
         painter.drawPolygon(border_polygon)
@@ -177,6 +177,6 @@ class SettingWindow(QMainWindow):
         if hasattr(self, 'custom_font'):
             painter.setFont(self.custom_font)
             text = "Auto-Start Assistant"
-            painter.setPen(QColor("#5922b3"))
+            painter.setPen(QColor("#E33E8C"))
             painter.drawText(self.rect(), Qt.AlignCenter, text)
 

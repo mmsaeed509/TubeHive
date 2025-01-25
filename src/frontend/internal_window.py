@@ -61,7 +61,7 @@ class InternalWindow(QWidget):
                 margin: 0 0 0 0;   /* Margin around the scrollbar */
             }
             QScrollBar::handle:vertical {
-                background: #5922b3;  /* Color of the scrollbar handle */
+                background: #E33E8C;  /* Color of the scrollbar handle */
                 border-radius: 0px;    /* Rounded corners for the scrollbar handle */
             }
             QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
@@ -75,7 +75,7 @@ class InternalWindow(QWidget):
         # Create QLabel for the content, To be selectable and copyable
         self.content_label.setFont(self.predator_font)  # Apply Predator font
         self.content_label.setStyleSheet(
-            f"color: #5922b3; font-size: 18px; background-color: #0E1218; padding: 10px;"
+            f"color: #E33E8C; font-size: 18px; background-color: #0E1218; padding: 10px;"
             f"font-family: '{self.predator_font.family()}';"
         )
         self.content_label.setTextInteractionFlags(Qt.TextSelectableByMouse)
@@ -117,7 +117,7 @@ class InternalWindow(QWidget):
         painter.drawPolygon(self.polygon)  # Draw the filled polygon
 
         # Draw the border with the specified color
-        pen = QPen(QColor("#5922b3"), 5)  # Create a pen with the desired color and border width
+        pen = QPen(QColor("#E33E8C"), 5)  # Create a pen with the desired color and border width
         painter.setPen(pen)
         painter.drawPolygon(self.polygon)  # Draw the polygon border
 

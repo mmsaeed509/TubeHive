@@ -50,7 +50,7 @@ def setupButton(button, font_family):
     button.setStyleSheet(f"""
         QPushButton {{
             font-family: {font_family};
-            background-color: #5922b3;
+            background-color: #E33E8C;
             color: black;
             font-size: 18px;
             font-weight: bold;
@@ -224,7 +224,7 @@ class ButtonContent:
             button.setStyleSheet(
                 f"""
                 QPushButton {{
-                    background-color: #5922b3;
+                    background-color: #E33E8C;
                     color: white;
                     border: none;
                 }}
@@ -268,7 +268,7 @@ class ButtonContent:
                     color: white;
                     background-color: #151A21;
                     padding: 5px;
-                    border: 1px solid #5922b3;
+                    border: 1px solid #E33E8C;
                     border-radius: 5px;
                 }
                 """
@@ -313,7 +313,7 @@ class ButtonContent:
                     margin: 0 0 0 0;
                 }
                 QScrollBar::handle:vertical {
-                    background: #5922b3;
+                    background: #E33E8C;
                     border-radius: 0px;
                 }
                 QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
@@ -400,11 +400,11 @@ class ButtonContent:
                         margin: 0 0 0 0;
                     }
                     QScrollBar::handle:vertical {
-                        background: #5922b3;
+                        background: #E33E8C;
                         border-radius: 0px;
                     }
                     QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
-                        background: #5922b3;
+                        background: #E33E8C;
                     }
                     QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                         background: #151A21;
@@ -413,7 +413,7 @@ class ButtonContent:
 
                 content_label.setFont(self.predator_font)
                 content_label.setStyleSheet(
-                    f"color: #5922b3; font-size: 18px; background-color: #151A21; padding: 10px;"
+                    f"color: #E33E8C; font-size: 18px; background-color: #151A21; padding: 10px;"
                     f"font-family: '{self.predator_font.family()}';"
                 )
                 content_label.setTextInteractionFlags(Qt.TextSelectableByMouse)
@@ -450,7 +450,7 @@ class ButtonContent:
             button.setStyleSheet(
                 f"""
                 QPushButton {{
-                    background-color: #5922b3;
+                    background-color: #E33E8C;
                     color: white;
                     border: none;
                 }}
@@ -494,7 +494,7 @@ class ButtonContent:
                     color: white;
                     background-color: #151A21;
                     padding: 5px;
-                    border: 1px solid #5922b3;
+                    border: 1px solid #E33E8C;
                     border-radius: 5px;
                 }
                 """
@@ -593,7 +593,7 @@ class ButtonContent:
                     margin: 0 0 0 0;
                 }
                 QScrollBar::handle:vertical {
-                    background: #5922b3;
+                    background: #E33E8C;
                     border-radius: 0px;
                 }
                 QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
@@ -680,11 +680,11 @@ class ButtonContent:
                         margin: 0 0 0 0;
                     }
                     QScrollBar::handle:vertical {
-                        background: #5922b3;
+                        background: #E33E8C;
                         border-radius: 0px;
                     }
                     QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
-                        background: #5922b3;
+                        background: #E33E8C;
                     }
                     QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
                         background: #151A21;
@@ -693,7 +693,7 @@ class ButtonContent:
 
                 content_label.setFont(self.predator_font)
                 content_label.setStyleSheet(
-                    f"color: #5922b3; font-size: 18px; background-color: #151A21; padding: 10px;"
+                    f"color: #E33E8C; font-size: 18px; background-color: #151A21; padding: 10px;"
                     f"font-family: '{self.predator_font.family()}';"
                 )
                 content_label.setTextInteractionFlags(Qt.TextSelectableByMouse)

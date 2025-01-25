@@ -19,7 +19,7 @@ class AddLogo(QWidget):
         # Set the geometry (position and size) of the internal window
         self.setGeometry(30, 20, 150, 150)
         self.setAttribute(Qt.WA_TranslucentBackground)  # Make the background transparent
-        self.radius = min(self.width(), self.height()) // 2
+        # self.radius = min(self.width(), self.height()) // 2
 
         # Resolve the image path relative to the script's location
         script_dir = os.path.dirname(os.path.abspath(__file__))  # Get the directory of the script

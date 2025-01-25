@@ -14,7 +14,7 @@ from PyQt5.QtWidgets import QWidget, QPushButton, QVBoxLayout
 
 
 class CustomButton(QPushButton):
-    def __init__(self, text, points, x, y, width, height, callback, color="#0E1218", border_color="#5922b3",
+    def __init__(self, text, points, x, y, width, height, callback, color="#0E1218", border_color="#E33E8C",
                  border_thickness=5, parent=None):
         super().__init__(text, parent)
         self.currently_pressed_button = None
@@ -60,7 +60,7 @@ class CustomButton(QPushButton):
         painter.setRenderHint(QPainter.Antialiasing)
 
         if self.parent().currently_pressed_button == self:
-            background_color = QColor("#5922b3")
+            background_color = QColor("#E33E8C")
             text_color = QColor("white")
             self.text_offset_x = 65  # Offset the text to the right when the button is pressed
         else:
