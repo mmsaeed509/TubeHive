@@ -17,7 +17,7 @@ class AddLogo(QWidget):
     def __init__(self, parent=None):
         super().__init__(parent)
         # Set the geometry (position and size) of the internal window
-        self.setGeometry(30, 20, 150, 150)
+        self.setGeometry(20, 20, 200, 200)
         self.setAttribute(Qt.WA_TranslucentBackground)  # Make the background transparent
         # self.radius = min(self.width(), self.height()) // 2
 
